@@ -43,6 +43,10 @@ Then:
 
 `sudo docker images`
 
+External:
+
+`sudo docker run -p 5000:80 flask-app`
+
 Local machine:
 
 `sudo docker run --network=host flask-app`
