@@ -41,6 +41,15 @@ Build the app: `sudo docker build -t flask-app .`
 
 Then run docker locally: `sudo docker run --network=host flask-app`
 
+Check:
 
+`sudo docker images`
 
+External:
+
+`sudo docker run -p 5000:80 flask-app`
+
+Local machine:
+
+`sudo docker run --network=host flask-app`
 
